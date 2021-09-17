@@ -1,0 +1,14 @@
+html {
+  font-size: calc(62.5%);
+  height: 100vh;
+  font-family: 'Roboto Light', sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  height: inherit;
+  margin: 0;
+  overflow-y: hidden;
+  font-size: var(--m-font-size-normal);
+  color: var(--m-color-dark);
+}

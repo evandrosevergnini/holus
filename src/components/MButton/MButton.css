@@ -1,0 +1,83 @@
+.holus-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-width: var(--m-form-item-normal);
+  min-height: var(--m-form-item-normal);
+  margin: 0;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: var(--m-font--size-normal);
+  font-weight: 500;
+  border-radius: 3px;
+  background: var(--m-back);
+  color: var(--m-front);
+  box-shadow: 0 0 2px 1px hsla(0, 0%, 0%, 0.3);
+  outline: none;
+  user-select: none;
+  transition: all 0.3s ease !important;
+}
+.holus-button:focus {
+  box-shadow: 0 0 4px 2px hsla(0, 0%, 0%, 0.3);
+  transition: all 0.3s ease !important;
+}
+.holus-button:focus-visible {
+  box-shadow: 0 0 1px 3px var(--m-highlighted);
+  transition: all 0.3s ease !important;
+}
+.holus-button:disabled {
+  opacity: var(--m-opacity);
+}
+.holus-button:not(:disabled) {
+  cursor: pointer;
+}
+.holus-button--block {
+  width: 100%;
+}
+.holus-button--primary {
+  background: var(--m-primary-back);
+  color: var(--m-primary-front);
+}
+.holus-button--success {
+  background: var(--m-success-back);
+  color: var(--m-success-front);
+}
+.holus-button--info {
+  background: var(--m-info-back);
+  color: var(--m-info-front);
+}
+.holus-button--alert {
+  background: var(--m-alert-back);
+  color: var(--m-alert-front);
+}
+.holus-button--error {
+  background: var(--m-error-back);
+  color: var(--m-error-front);
+}
+.holus-button--small {
+  min-width: var(--m-form-item-small);
+  min-height: var(--m-form-item-small);
+  font-size: 0.875rem;
+}
+.holus-button--large {
+  min-width: var(--m-form-item-large);
+  min-height: var(--m-form-item-large);
+  font-size: 1.125rem;
+}
+.holus-button--outline {
+  background: transparente !important;
+}
+
+.holus-button--rounded {
+  border-radius: calc(var(--m-form-item-normal) / 2);
+}
+.holus-button--rounded + .holus-button--small {
+  border-radius: calc(var(--m-form-item-small) / 2);
+}
+.holus-button--rounded + .holus-button--large {
+  border-radius: calc(var(--m-form-item-large) / 2);
+}
+.holus-button--uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+:root {
+  --m-back: rgb(245, 245, 245);
+  --m-front: rgb(0, 0, 0);
+  --m-highlighted: rgb(0, 217, 255);
+  --m-primary-back: rgb(177, 255, 177);
+  --m-primary-front: rgb(0, 8, 0);
+  -m-primary-light: hsla(0, 0%, 100%, 0);
+  /* // --m-secondary-back: lightblue;
+  // --m-secondary-front: var(--m-front);
+  // --m-tertiary-back: rgb(238, 144, 144);
+  // --m-tertiary-front: var(--m-front);
+  // --m-quaternary-back: var(--m-front);
+  // --m-quaternary-front: var(--m-front); */
+  --m-success-back: rgb(0, 191, 255);
+  --m-success-front: rgb(0, 29, 39);
+  --m-info-back: rgb(143, 255, 115);
+  --m-info-front: rgb(7, 31, 1) k;
+  --m-alert-back: rgb(240, 255, 102);
+  --m-alert-front: rgb(37, 41, 0);
+  --m-error-back: rgb(255, 166, 166);
+  --m-error-front: rgb(59, 0, 0);
+  --m-spacing-small: 0.5rem;
+  --m-spacing-normal: 1rem;
+  --m-spacing-large: 1.5rem;
+  --m-form-item-small: 3rem;
+  --m-form-item-normal: 4.5rem;
+  --m-form-item-large: 5.4rem;
+  --m-opacity: 0.8;
+  /* VARIABLES */
+  --m-font-size-xxx-small: 1rem;
+  --m-font-size-xx-small: 1.2rem;
+  --m-font-size-x-small: 1.4rem;
+  --m-font-size-small: 1.6rem;
+  --m-font-size-normal: 1.8rem;
+  --m-font-size-large: 2.1rem;
+  --m-font-size-x-large: 2.5rem;
+  --m-font-size-xx-large: 3rem;
+  --m-font-size-xxx-large: 3.6rem;
+}
